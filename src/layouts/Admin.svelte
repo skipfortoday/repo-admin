@@ -9,7 +9,7 @@
 
   // pages for this layout
   import Dashboard from "views/admin/Dashboard.svelte";
-  import Settings from "views/admin/Settings.svelte";
+  import TambahIzin from "views/admin/TambahIzin.svelte";
   import Absensi from "views/admin/Absensi.svelte";
   import Izin from "views/admin/Izin.svelte";
 
@@ -25,7 +25,7 @@
     <div class="px-4 md:px-10 mx-auto w-full -m-24">
       <Router url="admin">
         <Route path="dashboard" component="{Dashboard}" />
-        <Route path="settings" component="{Settings}" />
+        <Route path="tambahizin" component="{TambahIzin}" />
         <Route path="absensi" component="{Absensi}" />
         <Route path="izin" component="{Izin}" />
       </Router>
